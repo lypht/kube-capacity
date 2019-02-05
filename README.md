@@ -7,6 +7,9 @@ This is a simple CLI that provides an overview of the resource requests, limits,
 ## Installation
 Go binaries are automatically built with each release by [GoReleaser](https://github.com/goreleaser/goreleaser). These can be accessed on the GitHub [releases page](https://github.com/robscott/kube-capacity/releases) for this project.
 
+## Current dependencies:
+A kubernetes cluster with [kube-metrics](https://github.com/kubernetes-incubator/metrics-server) installed.  A [helm chart](https://github.com/helm/charts/tree/master/stable/metrics-server) is also available.
+
 ### Homebrew
 This project can also be installed with Homebrew:
 ```
